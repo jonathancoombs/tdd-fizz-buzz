@@ -36,15 +36,15 @@ public class FizzBuzzTests {
         }
     }
 
-//    @Test
-//    public void testBuzzOutput() {
-//        for (int i = 1; i <= 100; i++) {
-//            Integer input = i * 5;
-//            String result = FizzBuzz.playFizzBuzz(input);
-//            if (!(input % 3 == 0)) {
-//                Assert.assertEquals("Testing " + input, "Buzz", result);
-//            }
-//        }
-//    }
+    @Test
+    public void testBuzzOutput() {
+        for (int i = 1; i <= 100; i++) {
+            Integer input = i * 5;
+            String result = FizzBuzz.playFizzBuzz(input);
+            if (!(input % 3 == 0)) {
+                Assert.assertEquals("Testing " + input, "Buzz", result);
+            }
+        }
+    }
 
 }
