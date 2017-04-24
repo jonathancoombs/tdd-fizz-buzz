@@ -24,18 +24,18 @@ public class FizzBuzzTests {
             Assert.assertEquals("Testing " + input, "FizzBuzz", result);
         }
     }
-//
-//    @Test
-//    public void testFizzOutput() {
-//        for (int i = 1; i <= 100; i++) {
-//            Integer input = i * 3;
-//            String result = FizzBuzz.playFizzBuzz(input);
-//            if (!(input % 5 == 0)) {
-//                Assert.assertEquals("Testing " + input, "Fizz", result);
-//            }
-//        }
-//    }
-//
+
+    @Test
+    public void testFizzOutput() {
+        for (int i = 1; i <= 100; i++) {
+            Integer input = i * 3;
+            String result = FizzBuzz.playFizzBuzz(input);
+            if (!(input % 5 == 0)) {
+                Assert.assertEquals("Testing " + input, "Fizz", result);
+            }
+        }
+    }
+
 //    @Test
 //    public void testBuzzOutput() {
 //        for (int i = 1; i <= 100; i++) {
