@@ -3,7 +3,7 @@ package com.discoverorg.service;
 class FizzBuzz {
     static final int FIZZ_VALUE = 3;
     static final int BUZZ_VALUE = 5;
-    static final String FIZZ_OUTPUT = "Fizzs";
+    static final String FIZZ_OUTPUT = "Fizz";
     static final String BUZZ_OUTPUT = "Buzz";
 
     static String playFizzBuzz(Integer input) {
