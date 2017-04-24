@@ -10,8 +10,8 @@ class FizzBuzz {
         String output = input.toString();
         if (input % 3 == 0 && input % 5 == 0) {
             output = "FizzBuzz";
-//        } else if (input % FIZZ_VALUE == 0) {
-//            output = FIZZ_OUTPUT;
+        } else if (input % 3 == 0) {
+            output = "Fizz";
 //        } else if (input % BUZZ_VALUE == 0) {
 //            output = BUZZ_OUTPUT;
         }
