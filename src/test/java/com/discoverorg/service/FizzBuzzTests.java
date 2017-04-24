@@ -10,9 +10,9 @@ public class FizzBuzzTests {
         for (int i = 1; i <= 100; i++) {
             Integer input = i;
             String result = FizzBuzz.playFizzBuzz(input);
-//            if (!(input % 3 ==0 || input % 5 == 0)) {
+            if (!(input % 3 ==0 || input % 5 == 0)) {
                 Assert.assertEquals("Testing " + input, input.toString(), result);
-//            }
+            }
         }
     }
 
