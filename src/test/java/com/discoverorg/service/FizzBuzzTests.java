@@ -16,14 +16,14 @@ public class FizzBuzzTests {
         }
     }
 
-//    @Test
-//    public void testFizzBuzzOutput() {
-//        for (int i = 1; i <= 100; i++) {
-//            Integer input = i * 3 * 5;
-//            String result = FizzBuzz.playFizzBuzz(input);
-//            Assert.assertEquals("Testing " + input, "FizzBuzz", result);
-//        }
-//    }
+    @Test
+    public void testFizzBuzzOutput() {
+        for (int i = 1; i <= 100; i++) {
+            Integer input = i * 3 * 5;
+            String result = FizzBuzz.playFizzBuzz(input);
+            Assert.assertEquals("Testing " + input, "FizzBuzz", result);
+        }
+    }
 //
 //    @Test
 //    public void testFizzOutput() {
