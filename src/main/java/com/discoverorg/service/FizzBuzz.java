@@ -8,13 +8,13 @@ class FizzBuzz {
 
     static String playFizzBuzz(Integer input) {
         String output = input.toString();
-//        if (input % FIZZ_VALUE == 0 && input % BUZZ_VALUE == 0) {
-//            output = FIZZ_OUTPUT+BUZZ_OUTPUT;
+        if (input % 3 == 0 && input % 5 == 0) {
+            output = "FizzBuzz";
 //        } else if (input % FIZZ_VALUE == 0) {
 //            output = FIZZ_OUTPUT;
 //        } else if (input % BUZZ_VALUE == 0) {
 //            output = BUZZ_OUTPUT;
-//        }
+        }
         return output;
 //        return null;
     }
