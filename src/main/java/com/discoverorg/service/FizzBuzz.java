@@ -12,8 +12,8 @@ class FizzBuzz {
             output = "FizzBuzz";
         } else if (input % 3 == 0) {
             output = "Fizz";
-//        } else if (input % BUZZ_VALUE == 0) {
-//            output = BUZZ_OUTPUT;
+        } else if (input % 5 == 0) {
+            output = "Buzz";
         }
         return output;
 //        return null;
